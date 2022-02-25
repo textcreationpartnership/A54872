@@ -1,0 +1,562 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A sermon preached at the assizes at Lancaster, on Sunday, March 19, 1675/6 by H. Pigott.</title>
+            <author>Pigott, H.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1676</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 44 KB of XML-encoded text transcribed from 21 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A54872</idno>
+            <idno type="STC">Wing P2219</idno>
+            <idno type="STC">ESTC R33409</idno>
+            <idno type="EEBO-CITATION">13295557</idno>
+            <idno type="OCLC">ocm 13295557</idno>
+            <idno type="VID">98879</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A54872)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 98879)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1039:35)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A sermon preached at the assizes at Lancaster, on Sunday, March 19, 1675/6 by H. Pigott.</title>
+                  <author>Pigott, H.</author>
+               </titleStmt>
+               <extent>[4], 33 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by T. Milbourn for W. Cademan ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1676.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Errata: p. 33.</note>
+                  <note>Reproduction of original in the Cambridge University Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Sermons, English --  17th century.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-11</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-11</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-01</date>
+            <label>Olivia Bottum</label>Sampled and proofread</change>
+         <change>
+            <date>2011-01</date>
+            <label>Olivia Bottum</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:98879:1"/>
+            <pb facs="tcp:98879:1"/>
+            <p>A SERMON Preached at the ASSIZES AT LANCASTER, On SUNDAY, <hi>March</hi> 19. 1675/6.</p>
+            <p>BY <hi>H. PIGOTT,</hi> B. D.</p>
+            <p>
+               <hi>LONDON,</hi> Printed by <hi>T. Milbourn,</hi> for <hi>W. Cademan,</hi> at the <hi>Popes Head</hi> in the Lower Walk of the <hi>New</hi> and <hi>Midle Exchange</hi> in the <hi>Strand,</hi> 1676.</p>
+         </div>
+         <div type="imprimatur">
+            <pb facs="tcp:98879:2"/>
+            <p>Imprimater,</p>
+            <closer>
+               <date>April 28th. 1676.</date>
+               <signed>G. JANE.</signed>
+            </closer>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:98879:2"/>
+            <head>
+               <hi>To the HONOURABLE S<hi rend="sup">r</hi>.</hi> TIMOTHY LITTLETON, <hi>K<hi rend="sup">t</hi>. AND</hi> VERE BERTY, <abbr>
+                  <hi>Eſq</hi>
+               </abbr> Chief Justices of Aſſize for the <hi>Northern</hi> Circuit.</head>
+            <opener>
+               <salute>My Lords,</salute>
+            </opener>
+            <p>
+               <seg rend="decorInit">Y</seg>our Lordſhip <hi>Candour,</hi> and the <hi>Sleightings</hi> of others, have, by a <hi>ſtrange</hi> Concurrence, <hi>begot</hi> and ſtrengthned this <hi>Reſolution,</hi> that this <hi>Diſcourſe</hi> ſhall appear in Publick.</p>
+            <p>Be it as <hi>Thoſe</hi> ſay (which yet I hope will <hi>never</hi> be true) that 'tis a <hi>tottering</hi> Church which I labour to <hi>Support;</hi> ſo much <hi>more</hi> Cauſe is there, I ſhould ſet to my <hi>Shoulder,</hi> and be full as Kind to my <hi>Dear Mother,</hi> as
+<pb facs="tcp:98879:3"/>that <hi>Ludian</hi> Prince to his <hi>Father;</hi> let the ap<g ref="char:EOLhyphen"/>pearance of Her <hi>Danger</hi> unty mine, and <hi>All</hi> Her <hi>true</hi> ſons Tongues to <hi>Plead</hi> for Her. Though Her foundations will, I doubt not, ap<g ref="char:EOLhyphen"/>prove themſelves more firm than to be <hi>ſhaken</hi> with <hi>One Blaſt,</hi> however Impetuous.</p>
+            <p>For my ſelf, I am ſo farre a <hi>Charitable</hi> and <hi>Chatholick</hi> Chriſtian, as to wiſh, with that <hi>great Prelate,</hi> Who acquits <hi>Our Church</hi> from Criminal Schiſm, that <hi>Such</hi> termes of Com<g ref="char:EOLhyphen"/>munion might be pitcht upon, as might bring the <hi>Whole</hi> Christian World into <hi>One.</hi> And therefore I strike not at the <hi>Tenets</hi> of any <hi>Society,</hi> further than they direct their <hi>Style</hi> or <hi>Deſignes</hi> againſt <g ref="char:V">Ʋ</g>s. And here, if I ſhew that We strive as much as any, to give <hi>Glory</hi> to <hi>GOD,</hi> and to ſettle on Earth, <hi>Peace</hi> and <hi>Good Will</hi> amongst Men, I hope I make it appear We have found the Way to the <hi>True Church;</hi> And therefore <hi>Trouble</hi> none for <hi>Comming</hi> thither, or <hi>Continuing</hi> there. And withal, that <hi>No Kingdom ſhould</hi> be Jealous of <hi>Such</hi> a CH<g ref="char:V">Ʋ</g>RCH within it, that gives to Each, their <hi>Due;</hi> to <hi>God,</hi>
+               <pb facs="tcp:98879:3"/>His; to <hi>Caeſar,</hi> His. Kings <hi>Prerogatives</hi> We ſtickle for, and amongst theſe, That they have a <hi>Right</hi> to be both <hi>Fathers</hi> and <hi>Sons</hi> to the CH<g ref="char:V">Ʋ</g>RCH: For thoſe of <hi>Biſhops</hi> alſo, But <hi>not</hi> to Exalt 'em Over thoſe who are in moſt <hi>particular</hi> manner <hi>Gods Anoyn<g ref="char:EOLhyphen"/>ted.</hi> We would neither lift up the <hi>Chair at Canterbury</hi> above the <hi>Throne at White-Hall,</hi> putting KINGS to <hi>Sweat</hi> for it, that they might <hi>procure</hi> a Good Arch-Biſhop, who would be their Quiet Neighbour (a paſ<g ref="char:EOLhyphen"/>ſage which our Britiſh Antiquities has ſuffici<g ref="char:EOLhyphen"/>ently obſerved): Nor would we bring in anew, thoſe deſcribed in <hi>Lyſimachus Nicanor,</hi> to Act <hi>old</hi> Tragedies over again, in any Dreſs.</p>
+            <p>And if it be Agreed upon by <hi>All,</hi> that when <hi>All</hi> Estates have a <hi>Due ſhare</hi> in the Government, there is the <hi>Beſt Craſis,</hi> that ſuits directly with that Christian Communion and Communication of all Church Members which we Preach; and ſo will, upon Good Principles, <hi>Reſtrain</hi> Inferiour Degrees from Enchroaching upon Superiour, and Superiours from Preying upon them.</p>
+            <p>
+               <pb facs="tcp:98879:4"/>
+This I know to be Your Lordſhips buſi<g ref="char:EOLhyphen"/>neſs. God bleſs You in your Good Endea<g ref="char:EOLhyphen"/>vours: So Prayes,</p>
+            <closer>
+               <salute>My LORDS,</salute> 
+               <signed>Your Lordſhips moſt Obliged, and Faithful Servant, <hi>H. PIGOT.</hi>
+               </signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="sermon">
+            <pb n="1" facs="tcp:98879:4"/>
+            <epigraph>
+               <q>
+                  <bibl>
+                     <hi>ACTS 17.6.</hi>
+                  </bibl>
+                  <p>Theſe that have Turned the World <g ref="char:V">Ʋ</g>pſide Down, are come Hither alſo.</p>
+               </q>
+            </epigraph>
+            <p>
+               <seg rend="decorInit">A</seg> Hard Charge, if it were True! for there is Innova<g ref="char:EOLhyphen"/>tion and Sedition in it, con<g ref="char:EOLhyphen"/>ſequently would be found againſt the publick Peace, and ſeveral Conſtitutions in that caſe pro<g ref="char:EOLhyphen"/>vided.</p>
+            <p>What <hi>are</hi> they then? Hear the Evidence in the next Verſe, and you would conclude 'em of the Buſieſt ſort of Jeſuiſts, or moſt phanatick 5th. <hi>Monarchy-Men,</hi> ſuch a Buſſle
+<pb n="2" facs="tcp:98879:5"/>they are averred to make about King JE<g ref="char:EOLhyphen"/>SUS.</p>
+            <p>Nor do the Proſecutors know by what Style or Titles to Endite 'em.</p>
+            <p>But if they muſt give in their Condition as they can; they are late of <hi>Philippi,</hi> c. 16. v. 12. or by the ſame right of <hi>Galatia, Phry<g ref="char:EOLhyphen"/>gia, Lystra</hi> or <hi>Derbe.</hi> For ſuch a Circuit had they come. And at the laſt place they came from, they had been <hi>Whipped,</hi> v. 22.</p>
+            <p>Wonder not if their Accuſers give in their names Indefinitely, yea as <hi>Individua vaga, Theſe.</hi>
+            </p>
+            <p>Let us then ſee if we can ſift out their Quality.</p>
+            <p>If they had their Papers about 'em, wherein one writes to their conſorts at <hi>Corinth,</hi> 1 <hi>Ep.</hi> 6. they pretend to be <hi>Judges.</hi> We have the word uſed or repeated once, twice or thrice in every verſe for <hi>four</hi> together.</p>
+            <p>And we find how they lay their claim, <hi>Mat.</hi> 19.28. This JESUS had made 'em a promiſe to be the <hi>Twelve</hi> for all the <hi>Cir<g ref="char:EOLhyphen"/>cuit</hi> of <hi>Iſrael.</hi>
+            </p>
+            <p>
+               <pb n="3" facs="tcp:98879:5"/>
+But look again, <hi>Act.</hi> 16.10. or 2d. of this, and you find 'em a fort of <hi>Preachers;</hi> ſo that if <hi>Judges</hi> they were, it ſhould ſeem they were ſome High-bearing <hi>Eccleſiaſtiques:</hi> for in that place of the Epiſtle cited, <hi>c.</hi> 6.4. they imagine and <hi>aver</hi> that the leaſt eſteemed among 'em, is fit for a Juſtice or Judge.</p>
+            <p>And as if they had a peak at the Lawyers, fore-warn all in <hi>v.</hi> 6, 7. that they come not at 'em.</p>
+            <p>As if theſe two juriſdictions had ever <hi>en<g ref="char:EOLhyphen"/>terfeared</hi> and <hi>emulated</hi> each other. But that the words <hi>[<g ref="char:V">Ʋ</g>njust]</hi> v. 1. and <hi>[<g ref="char:V">Ʋ</g>nbelievers]</hi> v. 6. mollifie the matter.</p>
+            <p>It ſhould ſeem, if their Proſelites could find Lawyers that were not <hi>unjuſt,</hi> or <hi>Infidels,</hi> they might addreſs to 'em. But let's hear the Pro<g ref="char:EOLhyphen"/>ſecutors, they ſay theſe do <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> turn the world upſide down, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> put men in<g ref="char:EOLhyphen"/>to a ſtate of diſorder or Anarchy. Whereas the great deſign of all the beſt Moraliſts, is, to make men to each other, and much more to themſelves, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> untroubled and ſet<g ref="char:EOLhyphen"/>tled.</p>
+            <p>
+               <pb n="4" facs="tcp:98879:6"/>
+Now if the <hi>Preachers,</hi> who ſhould preſs Peace, <hi>Peace,</hi> to him that is afar off, and to him that is near.</p>
+            <p>If <hi>theſe</hi> be <hi>(not accidentally)</hi> but <hi>intentio<g ref="char:EOLhyphen"/>nally,</hi> not for Peace, but the Sword. If <hi>theſe,</hi> inſtead of bleſſing with their cup of bleſ<g ref="char:EOLhyphen"/>ſing, we have bleſt you in the name of the Lord, are for <hi>Curſing,</hi> and that <hi>bitterly, Meroz</hi> becauſe they come not to help againſt the Mighty.</p>
+            <p>And if the <hi>Judges,</hi> who ſhould <hi>ſee</hi> that each hath his own, and thereby compel to a quiet and peaceable life in all Godlineſs and honeſty: If <hi>theſe</hi> become Evening Wolves, gnawing the bones on the Morrow, while the Prophets as light &amp; Treacherous perſons pollute the Sanctuary, doing Violence to the Law, <hi>Zeph.</hi> 3.3, 4, 5.</p>
+            <p>If the <hi>one</hi> make their Statutes &amp; coercive power, and the <hi>other</hi> their Scriptures and Ca<g ref="char:EOLhyphen"/>nons Noſes of Wax, to ply to <hi>perverſe</hi> pur<g ref="char:EOLhyphen"/>poſes: 'Tis then <hi>time</hi> for the <hi>Lord</hi> to do the <hi>Mornings</hi> work himſelf; that is, to judge in<g ref="char:EOLhyphen"/>ſtead of <hi>them,</hi> nay, to judge <hi>them themſelves
+<pb n="5" facs="tcp:98879:6"/>first,</hi> and ſo from <hi>Morning to Morning,</hi> to bring it to light.</p>
+            <p>Elſe, the one not judging the cauſe, the <hi>Cauſe</hi> of the Fatherleſs, nor the <hi>Right</hi> of the Needy, <hi>Jer.</hi> 5.28. And the other Prophe<g ref="char:EOLhyphen"/>ſying falſely, and getting the <hi>rule by that means,</hi> 'twill ſoon come to <hi>Jeremies hard</hi> queſti<g ref="char:EOLhyphen"/>on, <hi>v.</hi> 31. <hi>Quid fiet in no viſſimo,</hi> what will they do in the end thereof?</p>
+            <p>But let's hear the Defendants: 'Tis true, they were ill uſed at <hi>Philippi,</hi> c. 16. but they parted <hi>fairly,</hi> v. 39. And not long to, you ſhall find a good ſober Recorder paſs a fair and candid Character upon 'em, <hi>c.</hi> 19.37.</p>
+            <p>Let's conſider therefore the quality of their <hi>Accuſers,</hi> that make this preſent out-cry; for be they <hi>Judges,</hi> or be they <hi>Preachers,</hi> they are <hi>Elders,</hi> a ſort of <hi>Reverend</hi> perſons, if they <hi>a<g ref="char:EOLhyphen"/>buſe</hi> not their Calling; and againſt <hi>ſuch</hi> an Accuſation ſhould not be heard, <hi>niſi testium qualitate prius examinatâ,</hi> unleſs the perſons be of good note who bring it. If <hi>ſo,</hi> there is ſome good hope our deſpiſed Apoſtles will be found <hi>innocent,</hi> for <hi>every</hi> word increaſeth
+<pb n="6" facs="tcp:98879:7"/>the <hi>hard</hi> Character of the Accuſers.</p>
+            <p>They were <hi>Jews,</hi> conſequently apt to be <hi>fierce</hi> and <hi>inſolent.</hi>
+            </p>
+            <p>
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> Soon fired, and moved withal to Envy.</p>
+            <p>
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> Unbelievers<g ref="char:punc">▪</g> ſo <hi>Diametrically</hi> oppo<g ref="char:EOLhyphen"/>ſite to the <hi>Believers,</hi> who at <hi>Antioch</hi> were firſt called <hi>Christians.</hi>
+            </p>
+            <p>
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> make a Hubbub, Ryot and Rout.</p>
+            <p>And break the publick peace, while they tax others.</p>
+            <p>And ſuitable are their Confederates.</p>
+            <p>
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> 
+               <hi>Mules</hi> for knowledge, as for <hi>drudg<g ref="char:EOLhyphen"/>ery,</hi> light-headed, ſcoffing, mercenary Fel<g ref="char:EOLhyphen"/>lowes.</p>
+            <p>That diſturb the <hi>whole</hi> City, Invade <hi>pro<g ref="char:EOLhyphen"/>perty</hi> in the Houſe of <hi>Jaſon,</hi>
+            </p>
+            <p>Falling <hi>furiouſly</hi> upon him and others, when thoſe they ſeek were not found,</p>
+            <p>Addreſs to the <hi>Multitude,</hi> an unruly Beaſt, and carryed with a hurry, and on the ſudden.</p>
+            <p>Carry on the Accuſation in a way as cul<g ref="char:EOLhyphen"/>pable,
+<pb n="7" facs="tcp:98879:7"/>
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> Noyſe ſhall procure Audience, ſince they know that they want <hi>Justice</hi> in their cauſe.</p>
+            <p>Againſt <hi>theſe</hi> none are ſafe. They will <hi>first</hi> fight for <hi>David,</hi> and on the <hi>first</hi> pet, if <hi>Zig<g ref="char:EOLhyphen"/>lag</hi> miſcarry, be for <hi>Stoning</hi> him.</p>
+            <p>Cry <hi>Hoſanna</hi> to Chriſt, and in the next breath <hi>Crucifie</hi> him.</p>
+            <p>
+               <hi>Worſhip</hi> theſe men at <hi>Lyſtra,</hi> cap. 14.13 and as lightly <hi>down with them.</hi>
+            </p>
+            <p>This to the <hi>Green</hi> Tree, to <hi>David,</hi> to Chriſt, and to Chriſt's Apoſtles, <hi>what</hi> will they do in the dry?</p>
+            <p>Alas! The <hi>Beſt</hi> of us ſhall be deemed by 'em to be <hi>out</hi> of our places, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> They are come hither alſo.</p>
+            <p>Thus we have opened the Caſe. Let us now hear the proofes.</p>
+            <p>If <hi>theſe</hi> men deſerve not to be anſwerd, yet let the Accuſed clear themſelves to the <hi>World.</hi>
+            </p>
+            <p>Enquire we therefore, 1. If the World <hi>be</hi> turned thus, or <hi>eſſayed</hi> to be ſo?</p>
+            <p n="2">2dly. If <hi>this</hi> were to the World any <hi>just</hi> cauſe of Complaint?</p>
+            <p n="3">
+               <pb n="8" facs="tcp:98879:8"/>
+3dly. If not, why <hi>thoſe,</hi> and ſuch like, make it?</p>
+            <p n="4">4thly. What in <hi>ſuch</hi> caſe the <hi>Accuſed</hi> are to <hi>reſolve</hi> and <hi>do?</hi>
+            </p>
+            <p>To the <hi>first</hi> of theſe.</p>
+            <p>That the World <hi>had</hi> undergone a <hi>great</hi> alteration, will appear.</p>
+            <p n="1">1. From a <hi>Continual.</hi>
+            </p>
+            <p n="2">2dly. <hi>Conſentient</hi> out-cry or charge.</p>
+            <p n="3">3dly. From the Defendants <hi>own</hi> Confeſſi<g ref="char:EOLhyphen"/>on, though they acknowledge no <hi>guilt.</hi>
+            </p>
+            <p>Firſt, the clamour of <hi>many</hi> crys out upon <hi>them,</hi> and <hi>ſuch like,</hi> as <hi>continual</hi> troublers of <hi>all;</hi> ever ſince <hi>Cain</hi> diſreliſht <hi>Abel,</hi> whether they were <hi>Ministers</hi> or <hi>Magistrates</hi> that were ſtruck at.</p>
+            <p>
+               <hi>Lot</hi> (though by Office to Preach Righte<g ref="char:EOLhyphen"/>ouſneſs) is looked upon as <hi>too much aſſuming,</hi> when being ſcarce took in as a <hi>Free-man,</hi> he will become a <hi>Judge.</hi>
+            </p>
+            <p>
+               <hi>Moſes</hi> and <hi>Aaron</hi> are <hi>flatly</hi> told they<g ref="char:punc">▪</g> take too much upon them, while they lay the <hi>ſame</hi> charge to the Sons of <hi>Levi.</hi>
+            </p>
+            <p>
+               <hi>Elias</hi> is declared to be him that troubleth <hi>Iſrael.</hi>
+            </p>
+            <p>
+               <pb n="9" facs="tcp:98879:8"/>
+The Herds-man <hi>Amos,</hi> as ſo pernitious, that the Land cannot bear his words.</p>
+            <p>
+               <hi>Jeremy</hi> as weakening <hi>Iſrael</hi> and ſiding with the <hi>Caldeans.</hi>
+            </p>
+            <p>Chriſt as drawing the whole World after him, <hi>Joh.</hi> 12.9.</p>
+            <p>The ſubſtance of the charge againſt theſe in the Text.</p>
+            <p>Whoſe Partners were cenſured <hi>before</hi> for <hi>filling Jeruſalem</hi> with this <hi>Doctrin,</hi> and bring<g ref="char:EOLhyphen"/>ing <hi>this mans blood</hi> upon the Rulers.</p>
+            <p>After <hi>theſe</hi> the <hi>ſucceeding</hi> primitive Chri<g ref="char:EOLhyphen"/>ſtians, for <hi>having almoſt</hi> as many vices (as their Enemies pretended) as the <hi>other</hi> arro<g ref="char:EOLhyphen"/>gated vertues.</p>
+            <p>Our <hi>Reformed Churches;</hi> for novelty in Her Doctrine, if you will hear the Roma<g ref="char:EOLhyphen"/>niſt; for Antichriſtianiſme in her Diſcipline, if you will believe the Schiſmatick.</p>
+            <p n="2">2dly. In this charge, conſent both <hi>Jew</hi> and <hi>Greek;</hi> this Doctrin being to the <hi>one</hi> a ſtum<g ref="char:EOLhyphen"/>bling-block, and fooliſhneſs to the <hi>other:</hi> And as <hi>Aegypt, Amalec,</hi> and the Children of <hi>Lot,</hi> all ſet themſelves againſt <hi>Moſes, Aaron,</hi> and <hi>their</hi> Congregation.</p>
+            <p>
+               <pb n="10" facs="tcp:98879:9"/>
+So did <hi>Gebal, Amalec,</hi> and an <hi>omnigathrum</hi> againſt the Church ſucceeding.</p>
+            <p>
+               <hi>Herod</hi> and <hi>Pontius Pilate</hi> (late Enemies to each other) againſt <hi>Christ.</hi> Both the <hi>ſame Herod</hi> and <hi>Pilate,</hi> with the Gentiles and peo<g ref="char:EOLhyphen"/>ple of <hi>Iſrael</hi> againſt the <hi>Apostles</hi> at their firſt appearing, <hi>Act.</hi> 4.27.</p>
+            <p>And <hi>ſome</hi> of <hi>theſe</hi> acknowledge that Bonds and Afflictions awaite them in <hi>every</hi> City.</p>
+            <p n="3">3dly. <hi>Themſelves</hi> could not deny, but rather <hi>rejoyce</hi> in it, that things were <hi>much</hi> al<g ref="char:EOLhyphen"/>tered: They <hi>ſay God</hi> had ſo promiſed.</p>
+            <p>A new Heaven, and a new Earth; the old Earth being to be <hi>ſhook,</hi> and not <hi>that only,</hi> but the Heaven <hi>alſo.</hi>
+            </p>
+            <p>Whereas men ſlept <hi>ſecurely,</hi> he had ſent men with Voyces like <hi>Trumpets,</hi> who would <hi>awake</hi> 'em.</p>
+            <p>Nor might <hi>Ephraim vindicate</hi> himſelf up<g ref="char:EOLhyphen"/>on <hi>Manaſſes,</hi> or <hi>he</hi> on <hi>him,</hi> or <hi>both</hi> upon <hi>Juda.</hi>
+            </p>
+            <p>The Lyon-like poſture, averred of <hi>Juda,</hi> as his <hi>honour</hi> in his Fathers bleſſing, being <hi>turned</hi> to that of the Lamb.</p>
+            <p>
+               <pb n="11" facs="tcp:98879:9"/>
+A man muſt not ſtruggle for his own <hi>Cloak,</hi> but let the <hi>Coat</hi> go after it; impart <hi>all</hi> his ſubſtance to his Fellow-members: And the ſpirits be <hi>ſo</hi> ſoftned, that a blow taken on <hi>one</hi> Cheek muſt exact the <hi>other</hi> to be turned to the Striker: And if any deſpitefully uſed a<g ref="char:EOLhyphen"/>ny of them, <hi>thoſe</hi> they muſt heartily pray for.</p>
+            <p>Old Sacrifices were Antiquated, and the liberty of Poligamy and Divorce at pleaſure, <hi>quite</hi> Aboliſhed.</p>
+            <p>The <hi>old</hi> aeſtimat of points of Honour, In<g ref="char:EOLhyphen"/>tereſt and Liberty <hi>quite</hi> altered to <hi>another</hi> Standard.</p>
+            <p>And it to be <hi>now</hi> accompted a priviledge to break Swords into Plow-ſhares, and Spears into Pruning-hooks.</p>
+            <p>That the great Prince of the World, who Ruled in the dark, was by Chriſt the light <hi>Ejected,</hi> Joh. 12.31.</p>
+            <p>That according to Chriſts own Profeſſion, he was become <hi>Superiour</hi> to him in <hi>all</hi> three ſorts of cauſes, <hi>Joh.</hi> 16.8.</p>
+            <p n="1">
+               <pb n="12" facs="tcp:98879:10"/>
+1. In <hi>Criminal</hi> cauſes in the publick Judi<g ref="char:EOLhyphen"/>cature, he did <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> Convince <hi>that Princes</hi> world of ſin.</p>
+            <p n="2">2. In the <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> or <hi>Equity,</hi> that himſelf ſhould have a <hi>glorious</hi> reward for his <hi>own</hi> grand un<g ref="char:EOLhyphen"/>dertakings, and <hi>their</hi> hard uſage of him.</p>
+            <p n="3">3. In the <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> or <hi>Tryal betwixt Party and Party,</hi> that Satan was Ejected from his Do<g ref="char:EOLhyphen"/>minion, <hi>lost</hi> his Worſhip, and the iſſue would ere long be, that through Chriſt's death, <hi>he</hi> ſhould be deſtroyed who had the power of death, <hi>Heb.</hi> 2.14.</p>
+            <p>That Chriſt himſelf yet came not to ſend Peace upon the Earth, but a Sword; and to ſet <hi>Relations</hi> at variance among <hi>themſelves.</hi>
+            </p>
+            <p>As this <hi>Paul</hi> did betwixt the <hi>Sadduces</hi> and <hi>Phariſees,</hi> though of the <hi>ſame Synedrium.</hi>
+            </p>
+            <p>That the <hi>Master</hi> ſaw cauſe to ask, Am I become your Enemy?</p>
+            <p>And the <hi>Apostles</hi> to complain to their <hi>Ma<g ref="char:EOLhyphen"/>ſter,</hi> For <hi>thy</hi> ſake we are killed <hi>all</hi> the day long, and are accounted as the off-ſcouring of the World.</p>
+            <p>And can we <hi>now</hi> in anſwer to the ſecond
+<pb n="13" facs="tcp:98879:10"/>enquiry, find that this was to the World no juſt cauſe of complaint?</p>
+            <p>To <hi>Anſwer</hi> this, we <hi>first</hi> take it for gran<g ref="char:EOLhyphen"/>ted, that where <hi>two</hi> charge each other, <hi>both</hi> cannot be in the right.</p>
+            <p>Nor are <hi>all</hi> Troublers of the World, that are <hi>ſtyled</hi> ſo, or that do <hi>alter</hi> the courſe of it, <hi>viz.</hi> when its courſes are <hi>Evil.</hi>
+            </p>
+            <p>
+               <hi>Ahab</hi> chargeth <hi>Elias,</hi> and <hi>Elias</hi> retrimi<g ref="char:EOLhyphen"/>nates or retorts it upon <hi>him.</hi>
+            </p>
+            <p>To determine whither was guilty, we muſt <hi>ſee</hi> who breaks the <hi>ORDER</hi> &amp; the <hi>
+                  <g ref="char:V">Ʋ</g>NITY</hi> which ſhould have been eſtabliſhed in <hi>Iſrael.</hi>
+            </p>
+            <p>For <hi>he</hi> it is (be it whether it will) who maketh in the Church a <hi>Schiſme,</hi> in the Kingdom a <hi>Sedition.</hi>
+            </p>
+            <p>If <hi>he</hi> depreſs what ſhould be <hi>above,</hi> or <hi>ex<g ref="char:EOLhyphen"/>alt</hi> thoſe that ſhould be as the Sediments <hi>be<g ref="char:EOLhyphen"/>low,</hi> whether it were perſons or principles, he troubleth and <hi>turneth all up ſide down.</hi>
+            </p>
+            <p>
+               <hi>Now</hi> let the Tryal have been referred to <hi>Jezebels</hi> Colledge of Prieſts, <hi>Elias</hi> had been <hi>cast:</hi> But referr it to the <hi>Old</hi> Law-book of God, and to the Miracle that vindicates the
+<pb n="14" facs="tcp:98879:11"/>Divinity of its principles, then is <hi>Elijah juſtified.</hi>
+            </p>
+            <p>And conſequently <hi>Ahab</hi> the guilty per<g ref="char:EOLhyphen"/>ſon, deſtroying Order and Unity in his <hi>own</hi> People.</p>
+            <p>And there by a ſtrange and <hi>unhappy</hi> folly uncementing and disjoyning the body with <hi>himſelf,</hi> as head ſhould guide.</p>
+            <p>For as thoſe are not a <hi>People,</hi> though a <hi>many</hi> who are not united by conſent of right, and communion of weale, ſo could thoſe <hi>ne<g ref="char:EOLhyphen"/>ver</hi> be the people of God, and for <hi>his</hi> ſake, pay obedience, who were not united in ſuch principles as <hi>God</hi> had imparted.</p>
+            <p>The parties litigant in the Text, do <hi>mutu<g ref="char:EOLhyphen"/>ally</hi> implead each other as diſturbers of all.</p>
+            <p>And St. <hi>Paul</hi> is ſo averſe from the troubles of the Church, that he <hi>heartily</hi> wiſhes they were even <hi>cut off</hi> that trouble you, <hi>Gal.</hi> 5.12.</p>
+            <p>Now if the <hi>Theſſalonian Jews</hi> could prove againſt 'em that <hi>they</hi> changed <hi>any</hi> harmleſs cuſtoms, and had <hi>no</hi> right to make ſuch Al<g ref="char:EOLhyphen"/>teration,</p>
+            <p>That through <hi>'em</hi> they were in danger
+<pb n="15" facs="tcp:98879:11"/>of the <hi>Romans</hi> taking away their place and Nation;</p>
+            <p>Or that they did ſeditiouſly ſet up any King but <hi>Caeſar.</hi>
+            </p>
+            <p>Or deſtroyed property, as the Silver-Smith clamour againſt 'em.</p>
+            <p>Then have they from even <hi>Paul's own</hi> wiſh a preſident to <hi>cut off</hi> theſe diſturbers.</p>
+            <p>But, if upon deliberate advice, as it was with the <hi>Beraeans,</hi> the <hi>Scripture</hi> and their <hi>Mi<g ref="char:EOLhyphen"/>racles,</hi> and <hi>Doctrine,</hi> lent light to each other;</p>
+            <p>And gave to conclude, That theſe came to <hi>amend,</hi> not <hi>disturb</hi> the world.</p>
+            <p>To <hi>ſettle</hi> order and peace, which is the <hi>calme</hi> of order. <hi>Peace</hi> betwixt Man and Man, Man and God, a Manand himſelf.</p>
+            <p>If they came but to turn men from dark<g ref="char:EOLhyphen"/>neſs to <hi>light,</hi> and from the power of Satan un<g ref="char:EOLhyphen"/>to <hi>God.</hi>
+            </p>
+            <p>If in this, to <hi>direct</hi> mens actions, not <hi>com<g ref="char:EOLhyphen"/>mand</hi> 'em.</p>
+            <p>If they made it <hi>clear,</hi> it was for the peoples <hi>embettering,</hi> not their <hi>own</hi> gain.</p>
+            <p>
+               <pb n="16" facs="tcp:98879:12"/>
+If as they promiſed, ſo they <hi>did</hi> propoſe a ſtate of true Beatitude <hi>attainable.</hi>
+            </p>
+            <p>
+               <hi>Then</hi> may the Apoſtles reply with <hi>Elias,</hi> 'tis not <hi>we</hi> that turn the world up-ſide down, but <hi>you</hi> that trouble it.</p>
+            <p>This for matter of Right on their ſide.</p>
+            <p>Now for matter of fact, they <hi>Anſwer</hi> the alledged Objections.</p>
+            <p>Firſt, If <hi>many</hi> Accuſations, or <hi>Accuſers</hi> render Guilty, the <hi>best</hi> ſhall never be Inno<g ref="char:EOLhyphen"/>cent, becauſe the <hi>best</hi> have <hi>moſt</hi> Enemies in a <hi>bad</hi> World.</p>
+            <p>In the new Heaven and Earth was to dwell <hi>Righteouſneſs.</hi> There ſhould be <hi>no</hi> neceſſity of <hi>leaving</hi> the one or the other.</p>
+            <p>The <hi>Watchmen</hi> awaked 'em for their <hi>good.</hi> What need of <hi>Lyons</hi> Claws or <hi>Mens</hi> Swords, if <hi>none</hi> ſhould <hi>offer</hi> wrong in <hi>all</hi> God's holy Mountain?</p>
+            <p>Or <hi>where</hi> the dammage, if <hi>obſcene</hi> and <hi>cruel</hi> Sacrifices were turned to lifting up <hi>clean</hi> hands and <hi>pure</hi> hearts?</p>
+            <p>Or <hi>where</hi> would the Houſe-peace be bro<g ref="char:EOLhyphen"/>ken, if the Wife were taught to <hi>Obey,</hi> the
+<pb n="17" facs="tcp:98879:12"/>Husband to <hi>Love,</hi> and <hi>both</hi> to be <hi>content</hi> with each other?</p>
+            <p>The Doctrin they delivered, teaching not to wrong <hi>Chastity</hi> by ſo much as an evil <hi>Eye.</hi>
+            </p>
+            <p>
+               <hi>Charity</hi> by a bad word; Thou Fool or <hi>Racha.</hi>
+            </p>
+            <p>
+               <hi>Juſtice</hi> by an evil deed or <hi>thought,</hi> not ſo much as <hi>deſiring</hi> what was <hi>anothers.</hi>
+            </p>
+            <p>Nor <hi>could</hi> there be <hi>any</hi> Baite for Ambition, where the Maſter ordered, that he that was the <hi>highest</hi> ſhould be the <hi>Servant</hi> of all.</p>
+            <p>Nor <hi>Wars,</hi> where Charity taught <hi>willing<g ref="char:EOLhyphen"/>ly</hi> to impart <hi>all</hi> for each others needs; and if the caſe required, even to be <hi>ſpent,</hi> as well as <hi>ſpend</hi> for each other, <hi>Life</hi> as <hi>Goods.</hi>
+            </p>
+            <p>The Devil Ejected was but an Uſurper and <hi>Rebel</hi> to <hi>God,</hi> whoſe the World was, and who had made <hi>Christ</hi> the Heir of All.</p>
+            <p>Whoſe doctrin <hi>could</hi> ſet none at Variance from <hi>it ſelf,</hi> but from bad mens <hi>ill</hi> manageing it.</p>
+            <p>As <hi>Paul</hi> made the Schiſme not from any evil principle, but by rubbing a ſore <hi>them<g ref="char:EOLhyphen"/>ſelves</hi> had made, and did but <hi>palliate.</hi>
+            </p>
+            <p>
+               <pb n="18" facs="tcp:98879:13"/>
+If <hi>theſe</hi> were Enemies, 'twas but for telling the <hi>Truth.</hi>
+            </p>
+            <p>If <hi>Perſecuted,</hi> 'twas but becauſe the God of this World had <hi>blinded</hi> the Eyes of Un<g ref="char:EOLhyphen"/>believers, leſt the light of the glory of the Goſpel of Chriſt, who is the Image of God, ſhould ſhine unto 'em, 2 <hi>Cor.</hi> 4.4.</p>
+            <p>And this their <hi>innocence</hi> conſidered with the charge, was that which <hi>reconciled</hi> thoſe Contradictions, 2 <hi>Cor.</hi> 6.8.</p>
+            <p>That they paſſed through honour and diſ<g ref="char:EOLhyphen"/>honour; through good report and evil report; eſteemed <hi>Deceivers,</hi> tho true; unknown, yet well known; dying, yet behold they live; chaſtened, yet not killed; ſorrowful, yet al<g ref="char:EOLhyphen"/>ways rejoycing; poor, yet making many rich; as having nothing, and yet poſſeſſing all things.</p>
+            <p>And if <hi>our</hi> Church be ſlandered by <hi>both</hi> extreams, you <hi>ſee</hi> where her comfort lyes, <hi>Gal.</hi> 4.29. as <hi>then</hi> the <hi>Carnal</hi> perſecuted thoſe born of the <hi>Spirit,</hi> ſo is it now.</p>
+            <p>Therefore <hi>no</hi> tentation hath over-taken her, ſave what is <hi>common</hi> to men.</p>
+            <p>
+               <pb n="19" facs="tcp:98879:13"/>
+She ought not to be worſe accompted of for being <hi>ſlandered. Nay,</hi> though ſome things ſhould <hi>deſerve</hi> a further amendment, much leſs to be <hi>ſcorned</hi> for being <hi>ill</hi> intrea<g ref="char:EOLhyphen"/>ted.</p>
+            <p>For as we let paſs as a <hi>good man,</hi> him whoſe <hi>good</hi> parts are <hi>many,</hi> and faults <hi>tollerable;</hi> and him for <hi>happy, not</hi> to whom <hi>no</hi> Calamity comes, but who will <hi>not</hi> by his ſuffering be moved from a <hi>right</hi> mind: So may we count that a happy ſtate, which having flouriſhed, feels no <hi>Tragical</hi> alteration. Nor where any <hi>Grand</hi> improbity <hi>remarques</hi> a Judgment of God, to be <hi>more</hi> than what befalls others.</p>
+            <p>Our Church <hi>flouriſhed</hi> in the days of Q. <hi>Elizabeth;</hi> was by God's <hi>own</hi> hand re-erect<g ref="char:EOLhyphen"/>ed <hi>lately,</hi> and <hi>might</hi> ſtand as long as <hi>any</hi> in this tranſient World; did we not either <hi>ſluggiſh<g ref="char:EOLhyphen"/>ly</hi> deſpond, or <hi>ſlaviſhly</hi> flie with thoſe <hi>weak-faith'd</hi> Kings to <hi>Aſſyria</hi> or <hi>Aegypt</hi> for ayd <hi>be<g ref="char:EOLhyphen"/>fore</hi> we need.</p>
+            <p>If then the Church give not occaſion to the clamour; to the <hi>third</hi> enquiry, Why all this Out-cry?</p>
+            <p>
+               <pb n="20" facs="tcp:98879:14"/>
+The <hi>Anſwer</hi> is, <hi>beſide</hi> what hath been ſaid of the quality of the Accuſers, Jews, Bigotts, Tumultuous, <hi>viz.</hi>
+            </p>
+            <p n="1">1. The corrupt Nature of Man.</p>
+            <p n="2">2dly. Satans Malice.</p>
+            <p n="3">3dly. An <hi>inordinate</hi> love of liberty in <hi>e<g ref="char:EOLhyphen"/>vil,</hi> do occaſion this ſlander.</p>
+            <p n="1">1. Mans corrupt Nature is <hi>apt</hi> to cla<g ref="char:EOLhyphen"/>mour.</p>
+            <p>For <hi>Good</hi> and <hi>Evil</hi> would, as contraries, <hi>expel</hi> and <hi>ſubvert</hi> each other.</p>
+            <p>Though Evil <hi>cannot</hi> be but where Good is; for 'tis <hi>Corruptive</hi> of that which is good; the nature wherein it ſettleth, being <hi>Good,</hi> and the Evil only a <hi>Deficiency</hi> in the Nature; (which by the way is one good Evidence that the World was Created of <hi>Nothing,</hi> and <hi>vergeth</hi> to <hi>ruine;</hi> ſee <hi>Aug. de civ. dei</hi> l. 12. c. 7.)</p>
+            <p>And <hi>Evil men</hi> are become Enemies to <hi>God</hi> and <hi>Good men, not</hi> by their <hi>Nature,</hi> but <hi>Vices,</hi> which <hi>corrupt</hi> the good of Nature in them, and ſo prejudice <hi>themſelves,</hi> not <hi>him.</hi>
+            </p>
+            <p>Who being <hi>Wiſe, Good,</hi> and <hi>Pure,</hi> Cre<g ref="char:EOLhyphen"/>ated
+<pb n="21" facs="tcp:98879:14"/>man in a more <hi>Noble</hi> and <hi>Innocent</hi> Eſtate than that whereinto he hath <hi>plunged</hi> him<g ref="char:EOLhyphen"/>ſelf.</p>
+            <p>(If we be in a ſtate of War, we are born ſo as we are <hi>corrupted,</hi> we were <hi>not originally deſigned</hi> ſuch by the Creator.)</p>
+            <p>And it fares with thoſe that ſhould be re<g ref="char:EOLhyphen"/>paired, as it doth with men of <hi>tender</hi> Eyes, <hi>ſickly</hi> Ears, and <hi>weak</hi> Stomacks, in reſpect of the Light, Muſick, and Delicates, though theſe be <hi>grateful</hi> to <hi>ſound</hi> faculties, their <hi>diſ<g ref="char:EOLhyphen"/>order</hi> will not abide 'em.</p>
+            <p>Nor <hi>can Superstitious</hi> and <hi>Licentious</hi> men away with the Preaching of <hi>Truth</hi> and <hi>Righ<g ref="char:EOLhyphen"/>teouſneſs.</hi>
+            </p>
+            <p>When men are Conſcious to themſelves of their own <hi>ill</hi>-deſerving, they have ever a <hi>ſuſ<g ref="char:EOLhyphen"/>pitious</hi> eye upon that which is of <hi>another</hi> In<g ref="char:EOLhyphen"/>tereſt.</p>
+            <p>The Elders of <hi>Bethel,</hi> though of the <hi>bet<g ref="char:EOLhyphen"/>ter</hi> ſort of God's people, <hi>trembled</hi> at <hi>Samuels</hi> comeing, and <hi>ſolicitouſly</hi> enquired, Comeſt thou peaceably? And you may obſerve, that even all thoſe who are honoured with an <hi>An<g ref="char:EOLhyphen"/>gels</hi>
+               <pb n="22" facs="tcp:98879:15"/>appearance to 'em muſt yet be <hi>cheared</hi> with a <hi>Noli timere,</hi> fear not, or elſe the meſ<g ref="char:EOLhyphen"/>ſage to 'em is <hi>loſt</hi> for lack of courage to hear it.</p>
+            <p>And <hi>all,</hi> becauſe being Conſcious of our own guilty, we are <hi>still jealous</hi> of a <hi>Denunci<g ref="char:EOLhyphen"/>ation.</hi>
+            </p>
+            <p>If ſo, <hi>then</hi> by how much men are more wicked, ſo much the apter will they be to be <hi>troubled;</hi> for they are <hi>ſo</hi> much more like the Devil than others are, and therefore jealous leſt the Preacher of Righteouſneſs torment 'em before their time.</p>
+            <p>Theſe are of opinion, that <hi>all</hi> Eſſays to cure 'em are but a trouble,</p>
+            <p>
+               <hi>Laws, Tracts</hi> of Philoſophy, and even their very <hi>Sacrifices,</hi> if they had <hi>coſt</hi> about 'em.</p>
+            <p>Their Natures were not ſubdued by Phi<g ref="char:EOLhyphen"/>loſophy. And that, the nearer it came to true Divinity, the more <hi>unwelcome</hi> was it, and <hi>worſe</hi> uſed he that vented it, as was <hi>So<g ref="char:EOLhyphen"/>crates</hi>
+            </p>
+            <p>And <hi>all</hi> was <hi>nought</hi> among 'em, as <hi>Hack<g ref="char:EOLhyphen"/>well</hi> in his excellent Apology makes mani<g ref="char:EOLhyphen"/>feſt.</p>
+            <p n="2">
+               <pb n="23" facs="tcp:98879:15"/>
+2ly. If you add the Apoſtles Argument, <hi>Rev.</hi> 12.12. The Devil hath great wrath, becauſe his time is ſhort. The Prince of Darkneſs muſt <hi>needs</hi> deteſt the Meſſengers of Light; no wonder if his Agents clamour on 'em, that they turn all up-ſide down.</p>
+            <p>He is called in the New Teſtament, the <hi>Devil,</hi> which title I meet not within the Old Teſtament. His time to rant in bad Lan<g ref="char:EOLhyphen"/>guage, was, when he felt his Kingdom tot<g ref="char:EOLhyphen"/>ter.</p>
+            <p n="3">3dly. Add the third Reaſon as more par<g ref="char:EOLhyphen"/>ticular. <hi>Saravia</hi> doth prudently begin his tract of the Right to Command, and of Chri<g ref="char:EOLhyphen"/>ſtian <hi>Obedience;</hi> ſhewing, that <hi>love</hi> of <hi>liberty</hi> is that which turns all up-ſide down,</p>
+            <p>Being in very deed but the <hi>proud ſtubborn<g ref="char:EOLhyphen"/>neſs</hi> of an <hi>untamed</hi> mind, ariſing from the <hi>high</hi> value which we ſet upon our ſelves; by which our firſt Parents fell <hi>off</hi> from God, and <hi>in</hi> with Satan, when they deſired to <hi>know</hi> what he <hi>hid,</hi> and to <hi>do</hi> what he had <hi>forbid<g ref="char:EOLhyphen"/>den.</hi>
+            </p>
+            <p>
+               <pb n="24" facs="tcp:98879:16"/>
+It makes us reſemble <hi>Brutes,</hi> of which the <hi>worſt</hi> will not be tamed, the <hi>reſt</hi> become <hi>uſe<g ref="char:EOLhyphen"/>ful:</hi>
+            </p>
+            <p>So <hi>Men,</hi> the more Bruitiſh they are, the harder are they to be reclaimed by doctrin, or by diſcipline.</p>
+            <p>And while they would ſerve themſelves of and by <hi>all</hi> other <hi>men</hi> and <hi>living things,</hi> yea, by the <hi>Elements</hi> and influences of the Heavens: Nay, while the very <hi>Angels</hi> of God are Miniſtring Spirits, and the <hi>Son</hi> of God in ſhape of a Servant, not comeing to be adminiſtred unto, but to <hi>ſerve;</hi> not to do his <hi>own</hi> will, but the will of him that <hi>ſent</hi> him: <hi>Theſe</hi> alone would be free, who have <hi>most</hi> ex<g ref="char:EOLhyphen"/>travagant paſſions, and ſo <hi>least</hi> fit to be left at liberty.</p>
+            <p>Let the Magiſtrate urge Law and Equity, as did <hi>Moſes,</hi> Numb. 16.13. They twit him as did the Princes of the Congregation, that he makes himſelf altogether a <hi>Prince</hi> over them. But if the <hi>Divine</hi> urge <hi>Religion,</hi> he is either ſnapt up as a Babbler, a ſetter forth of new Gods, or he ſpeaks <hi>Treaſon.</hi>
+            </p>
+            <p>
+               <pb n="25" facs="tcp:98879:16"/>
+Or at <hi>least</hi> to bring him into the peoples hate; <hi>this</hi> is he that ſpoyles their plenty by denying the old worſhip of the Queen of Heaven, <hi>Jer.</hi> 44.17, 18.</p>
+            <p>This mention of the Princes faulting a<g ref="char:EOLhyphen"/>gainſt <hi>Moſes,</hi> as theſe ſordid ones in the Text againſt the Apoſtles, doth mind me of the conſent of two excellent men upon this ſubject.</p>
+            <p>That Sedition ariſeth both from <hi>Great</hi> plenty, and <hi>Great</hi> want; the <hi>one</hi> provoking by haughtineſs, the <hi>other</hi> by ſpleen.</p>
+            <p>That the one is apt to <hi>Out rages,</hi> the o<g ref="char:EOLhyphen"/>ther to petty <hi>Miſchiefs.</hi> For <hi>Greatneſs</hi> de<g ref="char:EOLhyphen"/>lights to ſhew it ſelf by effects of <hi>power</hi> and <hi>baſeneſs</hi> to help it ſelf with ſhifts of <hi>Malice.</hi>
+            </p>
+            <p>And both apt to affront their Guides. In<g ref="char:EOLhyphen"/>deed remarque our Prophets and Apoſtles, and you ſhall find 'em vext by the Great Wo<g ref="char:EOLhyphen"/>men, <hi>Act.</hi> 13.50. whether Devout, or whe<g ref="char:EOLhyphen"/>ther thoſe Careleſs ones that are at eaſe, as well as by the Rabble in the Text.</p>
+            <p>And why ſhould we think much, if we re<g ref="char:EOLhyphen"/>ceive alike oppoſition? whilſt (to urge them
+<pb n="26" facs="tcp:98879:17"/>forwards) we have ſome <hi>Jeſuitical</hi> Adverſa<g ref="char:EOLhyphen"/>ries, who value each their <hi>parts</hi> and <hi>skill</hi> as competent to govern a whole <hi>Kingdom:</hi>
+            </p>
+            <p>And others kept <hi>ſo low,</hi> as by a <hi>bare</hi> Mo<g ref="char:EOLhyphen"/>naſtique allowance, or <hi>Contribution</hi> from <hi>pri<g ref="char:EOLhyphen"/>vate</hi> Purſes.</p>
+            <p>If <hi>theſe</hi> ſhare not only our Livings in <hi>ima<g ref="char:EOLhyphen"/>gination</hi> and <hi>hope,</hi> but the <hi>Kingdom</hi> alſo, as that which they accompt the Pope their Ma<g ref="char:EOLhyphen"/>ſters, <hi>vere horius deliciarum?</hi> for thither thoſe think it ſhould Revert, while others expect it as a reward for their zeal, as it was in the late times of Sequeſtration.</p>
+            <p>Add to theſe Arguments the natural <hi>Sloath</hi> of the World, the <hi>tediouſneſs</hi> of any good which hath <hi>long</hi> continued. How a flighting humour is ſtill maintained againſt thoſe who <hi>out-vie</hi> in power them that ſet a great value on themſelves.</p>
+            <p>As did <hi>he</hi> who acknowledged the Ob<g ref="char:EOLhyphen"/>jections againſt the unreformed Churches <hi>good,</hi> but would not <hi>abide</hi> that <hi>one poor Monk</hi> ſhould prevail in urging 'em.</p>
+            <p>
+               <pb n="27" facs="tcp:98879:17"/>
+All will ſatisfie that</p>
+            <p n="1">1. The beſt deſigners are oft worſt ſpoken of.</p>
+            <p n="2">2. And the <hi>greateſt</hi> clamour is from them who have leaſt cauſe to make it, or receive leaſt hurt.</p>
+            <p>We may obſerve the <hi>ſame</hi> in reference to thoſe who adminiſter <hi>civil</hi> affairs, as well as to <hi>Eccleſiaſtiques.</hi>
+            </p>
+            <p>Let the Rabble be <hi>up,</hi> and the Tax-gathe<g ref="char:EOLhyphen"/>rer <hi>Adoniram</hi> is <hi>ſure</hi> to be ſtoned.</p>
+            <p>And for <hi>all Samuels</hi> Integrity, they will grow <hi>weary</hi> of <hi>his</hi> Government.</p>
+            <p>If in the 4th. of <hi>Hoſh.</hi> 4. you find 'em ſtri<g ref="char:EOLhyphen"/>ving with the <hi>Prieſt,</hi> look forward but to 7.7. and they devour their <hi>Judges.</hi>
+            </p>
+            <p>Nay this unruly Beaſt [the Many] is <hi>al<g ref="char:EOLhyphen"/>ways</hi> heady and humorous.</p>
+            <p>Pleaſe 'em awhile, and what-<hi>ever</hi> the King did pleaſed 'em, 2 <hi>Sam.</hi> 3.36.</p>
+            <p>Raiſe their <hi>pet,</hi> and the time of the <hi>Great<g ref="char:EOLhyphen"/>est</hi> proſperity and plenty that <hi>ever</hi> was is carped at. Make our heavy burthen lighter, 1 <hi>King.</hi> 12.3.</p>
+            <p>
+               <pb n="28" facs="tcp:98879:18"/>
+Let 'em but be in <hi>tolerable</hi> fear of <hi>Tobia</hi> and <hi>Sanballat,</hi> and <hi>Nebemia</hi> may pluck 'em by the beard.</p>
+            <p>Let 'em grow half deſperate, and the King <hi>himſelf [Zedekiah]</hi> can have <hi>nothing</hi> after him.</p>
+            <p>Let <hi>Moſes</hi> ſhew 'em the Mount on <hi>Fire, then</hi> what <hi>ever</hi> thou ſay'ſt we will do.</p>
+            <p>Let him be abſent a-while, and the fear o<g ref="char:EOLhyphen"/>ver-blown, and <hi>Aaron</hi> muſt pleaſe 'em with a <hi>Calf,</hi> or <hi>fare-well</hi> his Prieſt-hood.</p>
+            <p>Hear their Language to the <hi>Magiſtrate,</hi> the word <hi>Judge</hi> they like not; 'tis at their Tongues end when they are moſt <hi>Angry, who</hi> made thee a Ruler or a Judge. This Fellow came to ſojourn, and will needs be a <hi>Judge.</hi>
+            </p>
+            <p>Leave it to the <hi>Gaole,</hi> or to him that holds by a <hi>force,</hi> or has <hi>broke</hi> the <hi>cloſe,</hi> and they would ſave you a labour of ſitting.</p>
+            <p>Have Charity for us if <hi>Schiſmatique, Pa<g ref="char:EOLhyphen"/>piſt,</hi> or <hi>Atheist</hi> envy our promotions or poſ<g ref="char:EOLhyphen"/>ſeſſions.</p>
+            <p>Let <hi>Moſes</hi> and <hi>Aaron</hi> be <hi>kind</hi> to each other,
+<pb n="29" facs="tcp:98879:18"/>for there will <hi>never</hi> want <hi>enough</hi> to murmur againſt 'em both.</p>
+            <p>The Tabernacle was pitcht at <hi>Shilo,</hi> where <hi>Joſhua</hi> dwelt; and the Temple founded on one of the two tops of <hi>Sion,</hi> where the Kings Houſe was upon the other, that they might be ready to exchange <hi>protection</hi> and <hi>direction.</hi>
+            </p>
+            <p>
+               <hi>Samuel</hi> entertained <hi>Saul</hi> with an <hi>Emble<g ref="char:EOLhyphen"/>matique</hi> Banquet; the Shoulder the <hi>Priests</hi> Portion; intimating he was to have a ſhare in <hi>Church</hi>-cares. And the very <hi>Ronanists</hi> at a Kings <hi>Coronation</hi> mind him, <hi>quod per hanc miniſterij nostri te eſſe participem non ignores.</hi>
+            </p>
+            <p>King <hi>Jehoſaphat</hi> would that his <hi>Judges</hi> ſhould know that they judged <hi>not</hi> for man, but for the <hi>Lord.</hi>
+            </p>
+            <p>And the deſign why you begin <hi>Aſſizes</hi> with a <hi>Sermon,</hi> and why we <hi>Preach,</hi> is that <hi>all</hi> may know that 'tis from <hi>God,</hi> that you exerciſe a <hi>coercive</hi> power (where we <hi>perſwade</hi> but) to keep Church and State in honour and ſafety, and to <hi>compel</hi> to good Morality thoſe who <hi>elſe</hi> would turn all up-ſide down, whilſt yet they clamour upon <hi>us</hi> or <hi>you<g ref="char:punc">▪</g>
+               </hi>
+            </p>
+            <p>
+               <pb n="30" facs="tcp:98879:19"/>
+And this conſideration brings us to an<g ref="char:EOLhyphen"/>ſwer the <hi>last</hi> enquiry, what ſhall be reſolved on, or <hi>done</hi> againſt this clamour,</p>
+            <p>We Reſolve all this Advice into three ſhort Leſſons.</p>
+            <p n="1">1. Learn Conſiſtency of Spirit. Deſpond not for the noyſe. Good men and Great are moſt abuſed.</p>
+            <p>An <hi>Eliab</hi> will berate a <hi>David,</hi> who will dare to <hi>do</hi> what he dares not to <hi>think</hi> of.</p>
+            <p>You have heard that Calumny ſtops not at the Prieſt, it will reach the Magiſtrate, yea, the King. <hi>Bene agere &amp; male audire Regium eſt.</hi> If he will not <hi>
+                  <g ref="char:V">Ʋ</g>nyoak</hi> the Sons of <hi>Belial,</hi> that they may do what is good in their <hi>own</hi> eyes, he ſhall be cenſured as a trouble to 'em.</p>
+            <p>Yet as <hi>none</hi> ſhould ceaſe to govern, be<g ref="char:EOLhyphen"/>cauſe <hi>ſome</hi> count it a Yoak:</p>
+            <p>So ſhould they not make their rule <hi>preca<g ref="char:EOLhyphen"/>vious</hi> by truckling to <hi>unworthy</hi> terms, where<g ref="char:EOLhyphen"/>by to confirm themfelves.</p>
+            <p>'Tis indeed to be <hi>expected</hi> that Riotous perſons <hi>diſreliſh</hi> thoſe that run not with them to exceſs; as for them that <hi>love</hi> not Truth to <hi>diſlike</hi> thoſe that bring it to light.</p>
+            <p>
+               <pb n="31" facs="tcp:98879:19"/>
+But if <hi>theſe</hi> be the cauſes be why they quarrel at us, they do us that advantage that we hereby become <hi>more</hi> like to our Great <hi>Maſter.</hi>
+            </p>
+            <p n="2">2dly. Nay learn to go on <hi>more</hi> vigorouſly. The more the World rageth, and makes a murmur, the <hi>greater</hi> need is there of a Re<g ref="char:EOLhyphen"/>formation of it.</p>
+            <p>Thoſe parts are ſoar <hi>indeed,</hi> which cauſe the Patient to cry out if they be but <hi>touched.</hi> And that Phyſitian were but an <hi>ill</hi> Friend, who would give over all Eſſays to Cure, be<g ref="char:EOLhyphen"/>cauſe of thoſe <hi>blaſts</hi> of breath.</p>
+            <p n="3">3dly. Labour ſtill to give <hi>no just</hi> cauſe of clamour againſt us.</p>
+            <p>If our principles be good, there is a good hope <hi>all</hi> will be well.</p>
+            <p>Though yet for lack of doing well, we may damn our ſelves while we ſave <hi>others,</hi> as Brands ſnatcht out of the Fire.</p>
+            <p>Some Divines do obſerve that there never yet fell Storm upon the Church, the Vapours whereof were not firſt noted to ariſe from coldneſs of affection, and backwardneſs in du<g ref="char:EOLhyphen"/>ties of Service towards God.</p>
+            <p>
+               <pb n="32" facs="tcp:98879:20"/>
+If <hi>ſo</hi> there is a probability for <hi>every</hi> Min<g ref="char:EOLhyphen"/>cah that is diſgorged upon us; and if there be <hi>no</hi> ſmoak of a <hi>hard</hi> Character, but where there is <hi>ſome</hi> fire of <hi>ill</hi> deſerving, we may thank our <hi>ſelves</hi> if our Reputation be incommodated. The Apoſtles <hi>lived innocently.</hi>
+            </p>
+            <p>And for Doctrin, they but vindicated old Truths wrapt up in the Scriptures, and dark<g ref="char:EOLhyphen"/>ned by the <hi>bad</hi> gloſſes of Jewiſh Doctors. And if any diſcovery was <hi>new,</hi> their Miracles atteſted the Truth of the Revelation.</p>
+            <p>If <hi>you</hi> ſtick to <hi>your</hi> old King <hi>Edwards</hi> Laws, <hi>Magna Charta,</hi> ſeveral other good Statutes, and the common Law:</p>
+            <p>
+               <hi>We</hi> to <hi>our</hi> one Canon, two Teſtaments, three Creeds, the four firſt Councels, and five firſt Centuries, as <hi>fixing</hi> the <hi>rule</hi> of our <hi>Religion,</hi> we ſatisfie our ſelves, and thoſe guided by us, and ſtop the mouth of thoſe who tell us of turning all up-ſide down.</p>
+            <p>we may encourage the people to their <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> , if any would draw 'em off.</p>
+            <p>Soft a little (may they ſay) though <hi>you</hi> call it Hereſie, or others Rags of Popery, we
+<pb n="33" facs="tcp:98879:20"/>ſee yet no cauſe but why we may continue in <hi>this</hi> way to worſhip the God of our Fathers.</p>
+            <p>If any go about to <hi>force</hi> us off, are not <hi>they</hi> as obnoxious to the <hi>Rigour</hi> of Juſtice, as thoſe who do but <hi>nibble</hi> at our goods by petty Larceny or Fellony?</p>
+            <p>In <hi>ſuch</hi> a caſe our Apoſtle ſpoke of in the Text, though the moſt charitable man <hi>alive</hi> wiſhes they were cut off (as we pre-alledged it.) He a Clergy-man could only wiſh it. <hi>Joſhua</hi> goes further than a wiſh, and tells ſuch plainly, <hi>c.</hi> 7.25. <hi>Why hast thou troubled us, the Lord ſhall trouble thee;</hi> and verifies his word by proceeding to Execution after Judg<g ref="char:EOLhyphen"/>ment.</p>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+      <back>
+         <div type="errata">
+            <head>ERRATA.</head>
+            <p>In the Epiſtle: <hi>Page</hi> 2. <hi>line</hi> 1. read <hi>Lydian.</hi>
+            </p>
+            <p>In the Book: <hi>Page</hi> 3. read <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>p.</hi> 9. r. <hi>our Reformed Church; p.</hi> 12. r. <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> 
+               <hi>p.</hi> 13. r. <hi>recriminates, line</hi> 11. r. <hi>whether; p.</hi> 14. <abbr>
+                  <hi>l.</hi>
+               </abbr> r. <hi>which; p.</hi> 15. <abbr>
+                  <hi>l.</hi>
+               </abbr> 6. r. <hi>Smiths; p.</hi> 20. <abbr>
+                  <hi>l.</hi>
+               </abbr> 3. inſtead of <hi>viz.</hi> a Comma after ſhort, as indeed in many places more, 'tis miſ-pointed, the fault being perhaps the Authors, who never Tranſcribed it, becauſe not deſigned for the Preſs, when writ.</p>
+         </div>
+         <div type="publishers_advertisement">
+            <head>Sermons lately Printed for <hi>William Cademan,</hi> at the <hi>Popes-Head</hi> in the <hi>New-Exchange</hi> in the <hi>Strand.</hi>
+            </head>
+            <p>A <hi>Warning-piece for the Unruly;</hi> in two Viſitation-Sermons, Preached before the Arch-biſhop of <hi>YORK,</hi> by <hi>Seth Buſhel,</hi> D. D.</p>
+            <p>
+               <hi>The great Efficacy and neceſſity of good Examples, eſpecially in the Clergy;</hi> in a Viſitation-Sermon Preached at <hi>Guilford,</hi> by <hi>Thomas Duncumb,</hi> D. D.</p>
+            <p>A Sermon Preached before the King at <hi>White-Hall,</hi> Octob. 17. 1675. by <hi>Miles Barne,</hi> Fellow at St. <hi>Peter</hi>'s in <hi>Cambridge,</hi> and Chaplain in Ordinary to his Majeſty.</p>
+            <pb facs="tcp:98879:21"/>
+         </div>
+      </back>
+   </text>
+</TEI>
